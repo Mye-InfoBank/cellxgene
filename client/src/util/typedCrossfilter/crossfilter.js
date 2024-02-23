@@ -98,7 +98,7 @@ export default class ImmutableTypedCrossfilter {
     const dim = new DimensionType(name, data, ...rest);
     Object.freeze(dim);
     const dimensions = {
-      ...this.dimensions,
+      //...this.dimensions,
       [name]: {
         id,
         dim,
