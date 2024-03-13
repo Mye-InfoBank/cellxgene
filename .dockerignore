@@ -1,5 +1,8 @@
 bin
-client
 dist
 docs
-server
+build
+test
+fbs
+example-dataset
+.github
