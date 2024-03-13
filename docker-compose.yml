@@ -3,4 +3,4 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: bigdatainbiomedicine/cellxgene
+    image: bigdatainbiomedicine/sc-cellxgene:1.1

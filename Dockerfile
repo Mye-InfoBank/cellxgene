@@ -12,6 +12,6 @@ COPY . /app
 WORKDIR /app
 
 RUN make build
-RUN pip install build
+RUN pip install -e build
 
 ENTRYPOINT ["cellxgene"]
