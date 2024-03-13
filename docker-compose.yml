@@ -1,0 +1,6 @@
+services:
+  cellxgene:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: bigdatainbiomedicine/cellxgene
